@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector!</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<header>
+		<h1>Crystal Collector!</h1>
+	</header>
+
+	<div class="row">
+		<div class="col-lg-6" id="main">
+			<p>You will be given a random number at the start of the game</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+			<p>You will win the game by matching your total score to a random number, you will loose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it</p>
+			<p>Each time, when the game starts, the game will change the values of each crystal!</p>
+		</div>
+		<div class="col-lg-6">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-3" >
+			<h1 id="targetScore">cgvjhbk</h1>
+		</div>
+		<div class="col-lg-3" >
+			<h1 id="actualScore"></h1>
+			<p>Actual Guess:</p>
+		</div>
+		<div class="col-lg-6">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<img id="crystal1" class="crystals" src="assets/images/crystal1.jpg" width="90px" height="90px">
+			<img id="crystal2" class="crystals" src="assets/images/crystal2.jpg" width="90px" height="90px">
+			<img id="crystal3" class="crystals" src="assets/images/crystal3.jpg" width="90px" height="90px">
+			<img id="crystal4" class="crystals" src="assets/images/crystal4.jpg" width="90px" height="90px">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3">
+			<p>Wins</p>
+			<h2 id="wins"> </h2>
+		</div>
+		<div class="col-lg-3">
+			<p>Looses</p>
+			<h2 id="looses"> </h2>
+		</div>
+		<div class="col-lg-6">
+		</div>
+	</div>
+
+
+</body>
+</html>
