@@ -5,8 +5,8 @@ var randomNumber="";
 var cr1Value=0;
 var cr2Value=0;
 var cr3Value=0;
+var cr4Value=0;
 var actualScore=0;
-
 
 function initiate(){
 	wins=0;
@@ -15,7 +15,6 @@ function initiate(){
 	restart();
 }
 initiate();
-
 
 function restart(){
 	actualScore=0;
@@ -32,17 +31,14 @@ function restart(){
 }
 
 function compare(){
-
 	if (randomNumber===actualScore) {
 		wins++;
 		restart();
 	}
-
 	else if(actualScore>randomNumber){
 		looses++;
 		restart();
 	}
-
 	$("#wins").text(wins);
 	$("#looses").text(looses);
 }
@@ -61,28 +57,24 @@ $("#crystal1").on("click", function(){
 	actualScore=cr1Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
-
 });
 
 $("#crystal2").on("click", function(){
 	actualScore=cr2Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
-
 });
 
 $("#crystal3").on("click", function(){
 	actualScore=cr3Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
-
 });
 
 $("#crystal4").on("click", function(){
 	actualScore=cr4Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
-
 });
 
 });

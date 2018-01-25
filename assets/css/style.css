@@ -1,0 +1,31 @@
+body{
+	background-image: url(https://www.dailydot.com/wp-content/uploads/c72/2e/af89d5794935b7b01bc54471f495376c.jpg);
+	background-size:  cover;
+}
+#main{
+	font-size: 18px;
+	background:rgba(255,255,255,0.65);
+	padding: 10px;
+}
+.container{
+	font-family: 'Comfortaa', cursive;
+}
+h1, h2, h4{
+	background:rgba(255,255,255,0.8);
+	text-align: center;	 
+}
+#tittle{
+	padding: 10px;
+}
+.col-lg-6{
+	text-align: center;
+}
+.crystals:hover {
+    opacity: 0.7;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+.crystals{
+	margin: 10px;
+}

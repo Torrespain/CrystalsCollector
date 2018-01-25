@@ -3,19 +3,23 @@
 <head>
 	<title>Crystal Collector!</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	
+
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
-
-	<header>
-		<h1>Crystal Collector!</h1>
+	
+<div class="container">
+	<header >
+		<h1 id="tittle">Crystal Collector!</h1>
 	</header>
+</div>
 
+<div class="container">
 	<div class="row">
 		<div class="col-lg-6" id="main">
 			<p>You will be given a random number at the start of the game</p>
@@ -30,11 +34,12 @@
 
 	<div class="row">
 		<div class="col-lg-3" >
-			<h1 id="targetScore">cgvjhbk</h1>
+			<h1 id="targetScore"></h1>
+			<h4>Target</h4>
 		</div>
 		<div class="col-lg-3" >
 			<h1 id="actualScore"></h1>
-			<p>Actual Guess:</p>
+			<h4>Actual Guess</h4>
 		</div>
 		<div class="col-lg-6">
 		</div>
@@ -49,17 +54,19 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-3">
-			<p>Wins</p>
-			<h2 id="wins"> </h2>
+			<h2>Wins</h2>
+			<h1 id="wins"> </h1>
 		</div>
 		<div class="col-lg-3">
-			<p>Looses</p>
-			<h2 id="looses"> </h2>
+			<h2>Looses</h2>
+			<h1 id="looses"> </h1>
 		</div>
 		<div class="col-lg-6">
 		</div>
 	</div>
+</div>
 
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
