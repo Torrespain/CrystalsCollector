@@ -52,25 +52,21 @@ console.log(randomNumber);
 function randomCrystal(){
 return(Math.floor((Math.random()*12)+1));
 }
-
 $("#crystal1").on("click", function(){
 	actualScore=cr1Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
 });
-
 $("#crystal2").on("click", function(){
 	actualScore=cr2Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
 });
-
 $("#crystal3").on("click", function(){
 	actualScore=cr3Value+actualScore;
 	$("#actualScore").text(actualScore);
 	compare()
 });
-
 $("#crystal4").on("click", function(){
 	actualScore=cr4Value+actualScore;
 	$("#actualScore").text(actualScore);

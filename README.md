@@ -21,5 +21,5 @@ Each time, when the game starts, the game will change the values of each crystal
 <h3>Link to the app</h3>
 https://torrespain.github.io/CrystalsCollector/
 
-
-
+<h3>Screenshot</h3>
+<img src=assets/images/capture.jpg>
