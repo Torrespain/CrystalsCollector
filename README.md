@@ -1,7 +1,5 @@
 # CrystalsCollector
 
-# eat-da-burger
-
 <h3>Description</h3>
 You will be given a random number at the start of the game
 
