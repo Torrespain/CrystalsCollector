@@ -22,4 +22,4 @@ Each time, when the game starts, the game will change the values of each crystal
 https://torrespain.github.io/CrystalsCollector/
 
 <h3>Screenshot</h3>
-<img src=assets/images/Capture.jpg>
+<img src=assets/images/capture.png>
